@@ -27,7 +27,7 @@ test("SauceDemo End-to-End Flow", async ({ page }) => {
   console.log("Price validation passed!");
   await page.locator("#finish").click();
   await expect(page).toHaveURL(/checkout-complete/);
-  await expect(page.locator(".complete-header")).git toContainText("THANK YOU");
+  await expect(page.locator(".complete-header")).toContainText("Thank you for");
   console.log("Order Completed Successfully!");
   await page.locator("#back-to-products").click();
   await page.locator("#react-burger-menu-btn").click();
