@@ -1,23 +1,15 @@
 {
-<<<<<<< HEAD
   "name": "letplaywright",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test"
   },
-=======
-  "name": "playwright",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {},
->>>>>>> 82a7693873d37bd27c04930ba73b7eaac14225ad
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-<<<<<<< HEAD
     "@playwright/test": "^1.57.0",
     "@types/node": "^24.10.1",
     "jest-playwright-preset": "^1.4.5",
@@ -36,9 +28,5 @@
       "json",
       "node"
     ]
-=======
-    "@playwright/test": "^1.56.1",
-    "@types/node": "^24.10.1"
->>>>>>> 82a7693873d37bd27c04930ba73b7eaac14225ad
   }
 }

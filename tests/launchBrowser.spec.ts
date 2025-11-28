@@ -1,5 +1,9 @@
 import { test, expect } from "@playwright/test";
 
+test.use({
+  video: 'on'
+});
+
 test('Sauce Demo Application E2E', async ({ page }) => {
   await page.goto('https://www.saucedemo.com/');
   await page.locator('[data-test="username"]').click();
@@ -21,4 +25,5 @@ test('Sauce Demo Application E2E', async ({ page }) => {
   await page.locator('[data-test="back-to-products"]').click();
   await page.getByRole('button', { name: 'Open Menu' }).click();
   await page.locator('[data-test="logout-sidebar-link"]').click();
+  
 });
